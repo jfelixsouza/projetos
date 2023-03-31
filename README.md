@@ -1,2 +1,2 @@
-# projetos
-Repositório para projetos pessoais
+# robot
+Repositório para projetos pessoais, utilizando o Robot Framework como ferramenta para automação

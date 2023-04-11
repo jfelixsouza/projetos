@@ -13,6 +13,8 @@ Library    DatabaseLibrary
 E altero a cor do produto de acordo com a cor no banco de dados
     Wait Until Element Is Visible    //span[contains(@class,'bunny productColor ng-scope GRAY')]
     Click Element   //span[contains(@class,'bunny productColor ng-scope GRAY')]
+
+
 E clico em "add cart"
     Wait Until Element Is Visible    //button[@name='save_to_cart'][contains(.,'ADD TO CART')]
     Click Button    //button[contains(@name,'save_to_cart')]
@@ -26,6 +28,7 @@ E clico em "add cart"
 
 
 QUANDO seleciono a quantidade desejada
+
     Wait Until Element Is Visible    //div[@class='plus']
     Double Click Element    //div[@class='plus']
 

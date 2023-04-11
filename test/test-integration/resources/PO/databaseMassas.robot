@@ -15,7 +15,7 @@ Desconectar Banco de dados
     Disconnect From Database
 
 ENTAO validamos as especificações do produto de acordo com o banco de dados
-    Connect To Database    dbapiModuleName=pymysql    dbName=banco_teste_automacao    dbUsername=root    dbPassword=EL6529jo1010&    dbHost=localhost    dbPort=3306
+    Connect To Database    dbapiModuleName=pymysql    dbName=banco_teste_automacao    dbUsername=root    dbPassword=    dbHost=localhost    dbPort=3306
 
     ${RESPOSTA_SELECT}     Query    Select * from massas
     Log Many    ${RESPOSTA_SELECT}
